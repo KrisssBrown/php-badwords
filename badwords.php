@@ -51,7 +51,7 @@ var_dump($parola_da_censurare)
                 <?php echo $paragrafo_censurato; ?>
             </p>
             <p>
-                <strong> <?php echo 'Il paragrafo censurato è lungo: ' . strlen($paragrafo_censurato); ?></strong>.
+                Il paragrafo censurato è lungo: <strong><?php echo strlen($paragrafo_censurato); ?></strong>.
             </p>
         </div>
     <?php
@@ -62,4 +62,3 @@ var_dump($parola_da_censurare)
 </body>
 
 </html>
-
